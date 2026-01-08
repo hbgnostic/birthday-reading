@@ -1,0 +1,363 @@
+.reading-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #FAF9F6 0%, #F5F4F1 100%);
+  padding: 4rem 2rem;
+}
+
+.reading-content {
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.reading-content.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 3rem 0 4rem;
+  margin-bottom: 3rem;
+}
+
+.celestial-ornament {
+  font-size: 1.5rem;
+  color: #B8A88A;
+  margin-bottom: 2rem;
+  opacity: 0.7;
+}
+
+.main-title {
+  font-family: var(--font-serif);
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #3D4F5F;
+  margin: 0 0 1rem;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #6B7B6E;
+  margin: 0;
+}
+
+.hero-divider {
+  width: 80px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #B8A88A, transparent);
+  margin: 2.5rem auto 0;
+}
+
+.transition-text {
+  font-family: var(--font-serif);
+  font-size: 1.375rem;
+  font-style: italic;
+  color: #6B7B6E;
+  text-align: center;
+  margin: 3rem 0 0 !important;
+}
+
+/* Section Dividers */
+.section-divider {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.divider-ornament {
+  font-size: 1.25rem;
+  color: #B8A88A;
+  opacity: 0.6;
+  letter-spacing: 0.5rem;
+}
+
+/* Transit Cards */
+.transit-card {
+  background: white;
+  border-radius: 8px;
+  padding: 3rem 2.5rem;
+  margin: 2rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(107, 123, 110, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.transit-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.card-alternate {
+  background: #FDFCFA;
+}
+
+.section-title {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 600;
+  color: #6B7B6E;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.section-subtitle {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8B8680;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 2rem;
+}
+
+.section-content p {
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: #2D2D2D;
+  margin-bottom: 1.5rem;
+}
+
+.section-content p strong {
+  font-weight: 500;
+  color: #3D4F5F;
+}
+
+.section-content p em {
+  font-style: italic;
+}
+
+/* Pull Quotes */
+.pull-quote {
+  margin: 2.5rem 0;
+  padding: 2rem 2.5rem;
+  background: linear-gradient(135deg, rgba(107, 123, 110, 0.04) 0%, rgba(184, 168, 138, 0.04) 100%);
+  border-left: 3px solid #B8A88A;
+  border-radius: 0 4px 4px 0;
+}
+
+.pull-quote p {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #3D4F5F;
+  font-style: italic;
+  margin: 0;
+}
+
+.pull-quote strong {
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Synthesis Section */
+.synthesis-section {
+  background: #FDFCFA;
+  border-radius: 8px;
+  padding: 3rem 2.5rem;
+  margin: 2rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(107, 123, 110, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.synthesis-section:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.synthesis-title {
+  font-family: var(--font-serif);
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #3D4F5F;
+  text-align: center;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.synthesis-subtitle {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8B8680;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  text-align: center;
+  margin: 0 0 2.5rem;
+}
+
+.synthesis-content p {
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  line-height: 1.85;
+  color: #2D2D2D;
+  margin-bottom: 1.75rem;
+}
+
+.synthesis-content p strong {
+  font-weight: 500;
+  color: #3D4F5F;
+}
+
+.synthesis-content p em {
+  font-style: italic;
+}
+
+.synthesis-quote p {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  line-height: 1.7;
+  color: #3D4F5F;
+  font-style: italic;
+}
+
+.final-blessing {
+  font-family: var(--font-serif);
+  font-size: 1.375rem;
+  line-height: 1.75;
+  color: #3D4F5F;
+  text-align: center;
+  margin: 3rem 0 0;
+  font-weight: 500;
+}
+
+/* Signature Section */
+.signature-section {
+  text-align: center;
+  padding: 4rem 0 2rem;
+  margin-top: 3rem;
+}
+
+.signature-ornament {
+  font-size: 1.25rem;
+  color: #B8A88A;
+  margin-bottom: 1.5rem;
+  opacity: 0.6;
+}
+
+.signature-text {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  font-style: italic;
+  color: #6B7B6E;
+  margin: 0 0 0.5rem;
+}
+
+.signature-name {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: #3D4F5F;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .reading-container {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .main-title {
+    font-size: 2.25rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+  }
+
+  .opening-text {
+    font-size: 1.0625rem;
+  }
+
+  .opening-text:first-of-type {
+    font-size: 1.125rem;
+  }
+
+  .transit-card {
+    padding: 2rem 1.75rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .pull-quote {
+    padding: 1.5rem 1.75rem;
+  }
+
+  .pull-quote p {
+    font-size: 1.125rem;
+  }
+
+  .synthesis-section {
+    padding: 2.5rem 2rem;
+  }
+
+  .synthesis-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .reading-container {
+    padding: 2rem 1rem;
+  }
+
+  .hero-section {
+    padding: 2rem 0 3rem;
+  }
+
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.125rem;
+  }
+
+  .transit-card {
+    padding: 1.75rem 1.5rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .pull-quote {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .pull-quote p {
+    font-size: 1.0625rem;
+  }
+
+  .synthesis-section {
+    padding: 2rem 1.5rem;
+  }
+
+  .synthesis-title {
+    font-size: 1.75rem;
+  }
+
+  .final-blessing {
+    font-size: 1.25rem;
+  }
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection Color */
+::selection {
+  background-color: rgba(107, 123, 110, 0.2);
+  color: #2D2D2D;
+}
