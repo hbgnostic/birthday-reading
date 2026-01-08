@@ -70,7 +70,7 @@ const ReadingPage = () => {
           <h2 className="section-title">The Eclipse Approaching</h2>
           <p className="section-subtitle">The Second House Cusp and Natal Chiron</p>
           <div className="section-content">
-            <p>This is where I found myself lingering.</p>
+            <p>This stood out to me.</p>
             <p>
               With the upcoming eclipse activating your 2nd house cusp at 26° Aquarius and your natal Chiron at 29° Aquarius, we're looking at something significant around <em>worth, value, resources, and the wound of belonging</em>.
             </p>
